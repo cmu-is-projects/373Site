@@ -1,0 +1,654 @@
+body{
+  font-family: 'PT Serif', serif !important;
+}
+
+#homeBody {
+  padding: 0;
+}
+
+#homeBody nav {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+}
+@font-face {
+  font-family: "Open Regular Sans";
+  src: url("../fonts/OpenSans/OpenSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Open Bold Sans";
+  src: url("../fonts/OpenSans/OpenSans-Bold.ttf");
+}
+
+footer {
+  left: 0;
+  right: 0;
+  width: 100%;
+  margin-top: 30px;
+  background-color: #464646;
+  padding: 50px;
+  color: #fff;
+  position: absolute;
+  text-align: center;
+}
+
+#footertwo {
+  left: 360px !important;
+  right: 0 !important;
+  width: 75%;
+  margin-top: 30px;
+  background-color: #464646;
+  padding: 50px;
+  color: #fff;
+  position: relative !important;
+  text-align: center;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #9a2b1b !important;
+  font-family: 'Roboto', sans-serif !important;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Manuale', serif !important;
+}
+
+nav ul li:hover {
+  text-decoration: underline;
+}
+
+#commPartners {
+  font-family: 'Manuale', serif !important;
+  padding: 20px;
+}
+
+#orgs {
+  padding: 30px !important;
+}
+
+#AubPart {
+  margin-left: 120px !important;
+}
+
+
+.navbar, .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form, .navbar-inverse {
+    background-color: #9a2b1b !important;
+    border-color-color: #9a2b1b !important;
+    left: 0;
+    right:0;
+    
+}
+
+.navbar, .navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav>li>a {
+    color: #fff !important;
+    left: 0;
+    right:0;
+}
+
+
+
+nav img {
+  width: 100%;
+  float: right;
+
+}
+
+#wordmark {
+  width: 90%
+}
+
+
+#cmu img {
+  width: 100%;
+  left: 0;
+  
+}
+
+#IS img{
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 30%;
+  padding: 30px;
+}
+
+#IS {
+  text-align: center;
+  display: block;
+}
+
+
+.title {
+  color: #d1792a !important;
+}
+
+#text {
+  display: block;
+}
+
+#text p{
+  margin: 2.5% 22%;
+  font-size: 1.1em ;
+}
+
+#projects {
+  display: block;
+  text-align: center;
+
+}
+
+.testimonials img {
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+  width: 10%;
+}
+
+.testimonials {
+  border: 2px solid #fff;
+  border-radius: 5px;
+  padding: 16px;
+  margin: 16px 0
+
+}
+
+blockquote {
+  border-color: white !important;
+}
+
+#projects button {
+  text-align: center;
+  margin: 5px auto;
+  width: 150px;
+  height: 40px;
+  padding: 5px;
+  background-color: #d1792a !important;
+  border-color: #d1792a !important;
+  border-radius: 20px; 
+  font-size:1.0em;
+  
+}
+
+
+/*based off of http://bestjquery.com/tutorial/testimonial/demo54/*/
+.testimonial{
+    border-left: 4px solid #9a2b1b;
+    padding: 20px 20px 20px 130px;
+    margin: 45px 15px 30px 15px;
+    overflow: hidden;
+    position: relative;   
+}
+
+.testimonial .pic{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    top: 40px;
+    left: 20px;
+}
+.testimonial .pic img{
+    width: 100%;
+    height: 100%;
+}
+.testimonial .text{
+    font-size: 15px;
+    font-style: italic;
+    color: #918686;
+    line-height: 25px;
+    margin-bottom: 15px;
+}
+.testimonial .name{
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 700;
+    color: #d1792a;
+    margin: 0;
+    float: right;
+}
+.testimonial .occupation{
+    display: inline-block;
+    font-size: 17px;
+    color: #9a2b1b;
+    float: right;
+}
+
+
+@media only screen and (max-width: 767px){
+    .testimonial{
+        padding: 20px;
+        text-align: center;
+    }
+    .testimonial .pic{
+        display: block;
+        position: static;
+        margin: 0 auto 15px;
+    }
+
+}
+
+
+@media only screen and (max-width: 500px){
+  .modalTitle, .modalPartner, .modalPartners, .modalDescription {
+  float: left !important;
+}
+
+.modalPartner, .modalPartners, .modalTitle {
+  display: none;
+}
+
+.modal-content img {
+  width: 100% !important;
+}
+
+.modalDescription {
+  margin-right: 130px;
+  margin-top: 20px !important;
+  font-size: 1.3em;
+}
+
+.team p {
+  display: block !important;
+}
+
+#IS img{
+  width: 60%;
+}
+
+#footertwo {
+  display: none !important;
+}
+
+
+
+}
+
+@media only screen and (max-width: 1000px){
+#text p{
+      margin: 2.5% 1.5%;
+      font-size: 1.0em ;
+      padding: 20px;
+
+}
+
+#orgs, #partners {
+  width: 2.5% 1.5% !important;
+  margin: 2.5% 0 !important;
+  font-size: 1.0em ;
+  padding: 1px;
+}
+
+#partners {
+  column-width: 5px !important;
+  column-count: 2!important;
+}
+
+ h1 {
+  font-size: 1.6em !important;
+ }
+
+ h2 {
+  font-size: 1.4em !important;
+ }
+}
+
+[data-toggle="collapse"] {
+  cursor: pointer;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.valign-middle {
+  vertical-align: middle !important;
+}
+
+.parent-expanded {
+  
+}
+.parent-collapsed {
+  display: none;
+}
+
+.collapsed {
+  .parent-expanded {
+    display: none;
+  }
+  
+  .parent-collapsed {
+    display: inline-block;
+  }
+}
+
+/* pics on index page */
+#seventeen {   
+  width: 100%;
+  margin-right: 0.416666667% !important;
+  margin-left: 0.3416666667% !important;
+  padding: 3.0021428571%;
+  margin-top: 1.0416666667%;
+  margin-bottom: 10.0416666667%;
+  background-color: #fbfbfb;
+  border-radius: 20px;    
+}
+
+/* centering pics on index page within space */
+
+
+/* making all the images the same size on the index page */
+#seventeen img {
+  
+  margin-right: 0.880952381%;
+  margin-left: 0.880952381%;
+  margin-bottom:10.880952381%;
+  margin-top:1.880952381%;
+  border-radius: 100px;  
+  box-shadow: 2px 2px 2px #888888;
+  
+}
+
+/* pics on index page */
+#sixteen {   
+  width: 100%;
+  margin-right: 0.416666667% !important;
+  margin-left: 0.3416666667% !important;
+  padding: 3.0021428571% !important;
+  margin-top: 1.0416666667%;
+  margin-bottom: 10.0416666667%;
+  background-color: #fbfbfb;
+  border-radius: 20px;    
+}
+
+/* centering pics on index page within space */
+
+
+/* making all the images the same size on the index page */
+#sixteen img {
+  
+  margin-right: 0.880952381%;
+  margin-left: 0.880952381%;
+  margin-bottom:10.880952381%;
+  margin-top:1.880952381%;
+  border-radius: 100px;  
+  box-shadow: 2px 2px 2px #888888;
+  
+}
+
+/* pics on index page */
+#fifteen {   
+  width: 100%;
+  margin-right: 0.416666667% !important;
+  margin-left: 0.3416666667% !important;
+  padding: 3.0021428571%;
+  margin-top: 1.0416666667%;
+  margin-bottom: 10.0416666667%;
+  background-color: #fbfbfb;
+  border-radius: 20px;    
+}
+
+/* centering pics on index page within space */
+
+
+/* making all the images the same size on the index page */
+#fifteen img {
+  
+  margin-right: 0.880952381%;
+  margin-left: 0.880952381%;
+  margin-bottom:10.880952381%;
+  margin-top:1.880952381%;
+  border-radius: 100px;  
+  box-shadow: 2px 2px 2px #888888;
+  
+}
+
+#semester div {
+  display: inline;
+}
+
+.show {
+  display: inline !important;
+}
+
+#seventeen img:hover {
+  box-shadow: 10px 10px 10px #888888;
+}
+
+#sixteen img:hover {
+  box-shadow: 10px 10px 10px #888888;
+}
+
+#fifteen img:hover {
+  box-shadow: 10px 10px 10px #888888;
+}
+
+#myInput {
+    background-image: url('../images/search.png'); /* Add a search icon to input */
+    background-position: 10px 12px; /* Position the search icon */
+    background-repeat: no-repeat; /* Do not repeat the icon image */
+    width: 100%; /* Full-width */
+    font-size: 16px; /* Increase font-size */
+    padding: 12px 20px 12px 40px; /* Add some padding */
+    border: 1px solid #ddd; /* Add a grey border */
+    margin-bottom: 30px; /* Add some space below the input */
+    margin-left: 15px;
+}
+
+#context h1 {
+  margin-top: 0px;
+  margin-left: 75px !important;
+  margin-bottom:30px;
+}
+
+.modalImage {
+  float: left;
+  width: 100%;
+}
+
+
+.modal-body img {
+  width: 100%;
+}
+
+.modalTitle {
+  float: right;
+  color: #9a2b1b;
+  
+}
+
+.modalPartner {
+  float: right;
+  margin-left: 100px;
+}
+
+.modalPartners {
+  float: right;
+  
+}
+
+.modalDescription {
+  color: #9a2b1b;
+  font-weight: bolder;
+  margin-top: 10px;
+}
+
+.team p {
+  display: inline;
+  margin-right: 20px;
+  
+  font-weight: bolder;
+  font-size: 1.1em;
+}
+
+.team {
+  text-align: left;
+}
+
+.modal-body button {
+  margin: 0 auto !important;
+}
+
+.modalButton {
+  text-align: center !important;
+}
+
+.modalButton .btn-primary{
+  background-color: #d1792a !important;
+  border-color: #d1792a !important;
+
+}
+
+.modal-body {
+  padding: 50px !important
+
+
+}
+
+
+
+.modal-content {
+  font-size: 0.8em;
+  width: 100%;
+}
+
+.modal-content h3, h4 {
+  font-size: 1.8em;
+}
+
+.modal-content img {
+  width: 25%;
+}
+
+
+#w3-light-grey w3-center {
+  padding: 32px 64px;
+}
+
+.w3-center {
+    text-align: center!important;
+    background-color: #fbfbfb;
+    
+    
+
+}
+
+#partners{
+  background-color: #fbfbfb;
+  -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+    -webkit-column-width: 100px; /* Chrome, Safari, Opera */
+    -moz-column-width: 100px; /* Firefox */
+    column-width: 50px !important;
+    column-rule: 1px solid lightgrey;
+    padding: 10px;
+}
+
+.close {
+  color: black !important;
+}
+
+#orgs {
+  background-color: #fbfbfb;
+  margin: 2.5% 22%;
+  padding: 5px;
+  
+}
+
+#sectionTitle {
+  display: block !important;
+}
+
+#homeTitle {
+  border-bottom: none !important;
+}
+
+
+.bg-light {
+  background-color: white !important;
+}
+
+.list-group-item {
+  border: none !important;
+}
+
+#Projects {
+  margin-bottom:20px !important;
+  margin-top:15px !important;
+  padding-bottom: 20px !important;
+}
+
+#searchBar {
+  margin-bottom: 30px;
+}
+
+
+.sidebar {
+  margin-top: 35px;
+}
+
+
+#BeaverTitle {
+  font-size: 0.7em;
+}
+
+
+
+#PRCTitle {
+  font-size: 0.9em;
+}
+
+#fourTeam {
+  font-size: 0.75em;
+}
+
+#bestTeam {
+  font-size: 0.6em;
+}
+
+#handTeam {
+  font-size: 0.9em;
+}
+
+#searchBar{
+   background-image: url('../images/search.png'); /* Add a search icon to input */
+    background-position: 10px 12px; /* Position the search icon */
+    background-repeat: no-repeat; /* Do not repeat the icon image */
+    width: 100%; /* Full-width */
+    font-size: 16px; /* Increase font-size */
+    padding: 12px 20px 12px 40px; /* Add some padding */
+    border: 1px solid #ddd; /* Add a grey border */
+    margin-bottom: 30px; /* Add some space below the input */
+   
+}
+
+#filterHeader {
+  color: #9a2b1b;
+}
+
+#group-1 a {
+  color: black !important;
+}
+
+#group-2 a {
+  color: black !important;
+}
+
+.in a:hover {
+  color: #d1792a !important;
+}
+
+.list-group-item.active {
+  background-color: #c6c6c6 !important;
+  border-color: #c6c6c6 !important;
+}
+  
+

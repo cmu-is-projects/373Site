@@ -1,0 +1,42 @@
+
+{% for row in data %}
+<div class="modal fade" id="{{ row["Company"].lower().replace(" ","") + row["Semester"].lower().replace(" ","") }}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img class="modalImage" src="{{ row["Logo"] }}">
+        <h2 class="modalTitle">{{ row["Company"] }}</h2>
+        <br><br><br>
+        <h3 class="modalPartner">Community Partner</h3>
+        <br><br><br>
+        <h4 class="modalPartners">{{ row["Community_Partner"] }}</h4>
+        <br><br><br><br><br><br>
+        <h3 class="modalDescription">Project Description</h3>
+        {{ row["Project_Vision"] }}
+        <h3 class="modalDescription">Student Development Team</h3>
+        <br>
+        <div class="team">
+        <p>{{ row["Student1_Name"] }}</p>
+        <p>{{ row["Student2_Name"] }}</p>
+        <p>{{ row["Student3_Name"] }}</p>
+
+        {% if row["Student4_Name"] != "" %}
+          <p>{{ row["Student4_Name"] }}</p>
+        {% endif %}
+
+        </div>
+        <br>
+        <div class="modalButton">
+        <a href="PDFs/{{ row["file_name"] }}" class="btn btn-primary" target="_blank">More Info</a>
+        </div>
+      </div> 
+  </div>
+</div>
+</div>
+{% endfor %}
+
