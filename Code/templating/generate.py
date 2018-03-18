@@ -23,4 +23,4 @@ elif templateType == "modal":
 	f.write(template.render( data=rdr ))
 
 
-print(template.render( data=rdr ))
+# print(template.render( data=rdr ))
