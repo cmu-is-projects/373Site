@@ -330,85 +330,67 @@ blockquote {
 }
 
 /* pics on index page */
-#seventeen {   
+#img-section {   
   width: 100%;
   margin-right: 0.416666667% !important;
   margin-left: 0.3416666667% !important;
   padding: 3.0021428571%;
   margin-top: 1.0416666667%;
   margin-bottom: 10.0416666667%;
-  background-color: #fbfbfb;
   border-radius: 20px;    
-}
-
-/* centering pics on index page within space */
-
-
-/* making all the images the same size on the index page */
-#seventeen img {
-  
-  margin-right: 0.880952381%;
-  margin-left: 0.880952381%;
-  margin-bottom:10.880952381%;
-  margin-top:1.880952381%;
-  border-radius: 100px;  
-  box-shadow: 2px 2px 2px #888888;
-  
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content:center;
 }
 
 /* pics on index page */
-#sixteen {   
-  width: 100%;
-  margin-right: 0.416666667% !important;
-  margin-left: 0.3416666667% !important;
-  padding: 3.0021428571% !important;
-  margin-top: 1.0416666667%;
-  margin-bottom: 10.0416666667%;
-  background-color: #fbfbfb;
-  border-radius: 20px;    
-}
-
-/* centering pics on index page within space */
-
-
-/* making all the images the same size on the index page */
-#sixteen img {
-  
-  margin-right: 0.880952381%;
-  margin-left: 0.880952381%;
-  margin-bottom:10.880952381%;
-  margin-top:1.880952381%;
-  border-radius: 100px;  
-  box-shadow: 2px 2px 2px #888888;
-  
-}
-
-/* pics on index page */
-#fifteen {   
+#img-section-old {   
   width: 100%;
   margin-right: 0.416666667% !important;
   margin-left: 0.3416666667% !important;
   padding: 3.0021428571%;
   margin-top: 1.0416666667%;
   margin-bottom: 10.0416666667%;
-  background-color: #fbfbfb;
   border-radius: 20px;    
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content:center;
 }
 
-/* centering pics on index page within space */
+
 
 
 /* making all the images the same size on the index page */
-#fifteen img {
+#img-section img {
+
+  margin-right: 0.880952381%;
+  margin-left: 0.880952381%;
+  margin-bottom:10.880952381%;
+  margin-top:1.880952381%;
+  border-radius: 10px;  
+  box-shadow: 1px 1px 1px 1px #afafaf;*/
+  padding:2.5%;
+  max-width: 200px;
+  max-height: 200px;
   
+}
+
+#img-section-old img {
+
   margin-right: 0.880952381%;
   margin-left: 0.880952381%;
   margin-bottom:10.880952381%;
   margin-top:1.880952381%;
   border-radius: 100px;  
-  box-shadow: 2px 2px 2px #888888;
+  box-shadow: 1px 1px 1px 1px #afafaf;*/
+  padding:2.5%;
+  max-width: 200px;
+  max-height: 200px;
   
 }
+
 
 #semester div {
   display: inline;
@@ -418,15 +400,11 @@ blockquote {
   display: inline !important;
 }
 
-#seventeen img:hover {
+#img-section img:hover {
   box-shadow: 10px 10px 10px #888888;
 }
 
-#sixteen img:hover {
-  box-shadow: 10px 10px 10px #888888;
-}
-
-#fifteen img:hover {
+#img-section-old img:hover {
   box-shadow: 10px 10px 10px #888888;
 }
 
