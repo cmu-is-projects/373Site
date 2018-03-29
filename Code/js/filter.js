@@ -38,16 +38,9 @@
 			projects2.hide();
 			$("div[project-type='Mobile']").show();
 			for (var i =0; i < sections.length; i++) {
-				var section = sections[i].children;
-				for (var j =0; j < section.length; j++) {
-					var div = section[j]
-					if (div.is(":visible") === false){
-						console.log("hidden", section[i]);
-					}
-					else {
-						console.log("show");
-					}
-				}
+				var section = $(sections[i]).is(":visible").length;
+				console.log(section);
+				
 			}
 
 		}
