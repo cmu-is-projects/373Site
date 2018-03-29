@@ -35,7 +35,7 @@ if templateType == "img":
 	
 	section = f"""<h2>{year}</h2>
     			<section class="row text-center placeholders" id="img-section">
-
+    			
     			</section>"""
 
 	section_soup = BeautifulSoup(section, "html.parser")

@@ -10,7 +10,7 @@
           </button>
         </div>
         <div class="modal-body">
-          <img class="modalImage" src="{{ row["Logo"] }}">
+          <img class="modalImage" src="{{ row["Logo_file"] }}">
           <h2 class="modalTitle">{{ row["Company"] }}</h2>
           <br><br><br>
           <h3 class="modalPartner">Community Partner</h3>
@@ -33,7 +33,7 @@
           </div>
           <br>
           <div class="modalButton">
-          <a href="PDFs/{{ row["file_name"] }}" class="btn btn-primary" target="_blank">More Info</a>
+          <a href="PDFs/{{ row["pdf_file_name"] }}" class="btn btn-primary" target="_blank">More Info</a>
           </div>
         </div> 
     </div>

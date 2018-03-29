@@ -360,7 +360,22 @@ blockquote {
 }
 
 
+#white-box {
+  margin-right: 0.880952381%;
+  margin-left: 0.880952381%;
+  margin-bottom:10.880952381%;
+  margin-top:1.880952381%;
+  border-radius: 10px;  
+  box-shadow: 1px 1px 1px 1px #afafaf;*/
+  padding:2.5%;
+  width:15vw;
+  height:15vw;
+  position:relative;
 
+
+
+
+}
 
 /* making all the images the same size on the index page */
 #img-section img {
@@ -370,10 +385,8 @@ blockquote {
   margin-bottom:10.880952381%;
   margin-top:1.880952381%;
   border-radius: 10px;  
-  box-shadow: 1px 1px 1px 1px #afafaf;*/
-  padding:2.5%;
-  max-width: 200px;
-  max-height: 200px;
+
+
   
 }
 
@@ -384,10 +397,8 @@ blockquote {
   margin-bottom:10.880952381%;
   margin-top:1.880952381%;
   border-radius: 100px;  
-  box-shadow: 1px 1px 1px 1px #afafaf;*/
-  padding:2.5%;
-  max-width: 200px;
-  max-height: 200px;
+
+
   
 }
 
@@ -400,11 +411,18 @@ blockquote {
   display: inline !important;
 }
 
-#img-section img:hover {
-  box-shadow: 10px 10px 10px #888888;
+#white-box img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding:2.5%;
+  position:absolute;
+  top:50%; /* Move the image down, so its top is half way down the container */
+  transform: translateY(-55%);
+
 }
 
-#img-section-old img:hover {
+#white-box:hover {
   box-shadow: 10px 10px 10px #888888;
 }
 
