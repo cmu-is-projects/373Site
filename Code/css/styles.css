@@ -342,6 +342,7 @@ blockquote {
   position: relative;
   align-items: center;
   justify-content:center;
+  position:relative;
 }
 
 /* pics on index page */
@@ -357,6 +358,7 @@ blockquote {
   position: relative;
   align-items: center;
   justify-content:center;
+  position:relative;
 }
 
 
@@ -368,8 +370,8 @@ blockquote {
   border-radius: 10px;  
   box-shadow: 1px 1px 1px 1px #afafaf;*/
   padding:2.5%;
-  width:15vw;
-  height:15vw;
+  width:13vw;
+  height:13vw;
   position:relative;
 
 
@@ -385,7 +387,8 @@ blockquote {
   margin-bottom:10.880952381%;
   margin-top:1.880952381%;
   border-radius: 10px;  
-
+  top:50%; /* Move the image down, so its top is half way down the container */
+  transform: translateY(-55%);
 
   
 }
@@ -397,6 +400,9 @@ blockquote {
   margin-bottom:10.880952381%;
   margin-top:1.880952381%;
   border-radius: 100px;  
+  position:absolute;
+  top:50%; /* Move the image down, so its top is half way down the container */
+  transform: translateY(-55%);
 
 
   
@@ -418,7 +424,8 @@ blockquote {
   padding:2.5%;
   position:absolute;
   top:50%; /* Move the image down, so its top is half way down the container */
-  transform: translateY(-55%);
+  transform: translateY(-52%);
+
 
 }
 
