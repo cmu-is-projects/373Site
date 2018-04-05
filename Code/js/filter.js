@@ -47,12 +47,9 @@
 			allFilter.addClass("active");
 			mobileFilter.removeClass("active");
 			webFilter.removeClass("active");
-			headers.show();
 			projects2.show();
 		}
 
 	}
 
-	function checkEmpty(){
 
-	}
