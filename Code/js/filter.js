@@ -22,7 +22,6 @@
 		var webFilter = $("#webToggle");
 		var mobileFilter = $("#mobileToggle");
 		var sections = document.getElementsByTagName ('section');
-
 		if(type=="web"){
 			allFilter.removeClass("active");
 			mobileFilter.removeClass("active");

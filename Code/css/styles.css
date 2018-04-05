@@ -119,7 +119,6 @@ nav img {
   display: block;
 }
 
-
 .title {
   color: #d1792a !important;
 }
@@ -218,7 +217,7 @@ blockquote {
 }
 
 
-@media only screen and (max-width: 767px){
+@media only screen and (max-width: 786px){
     .testimonial{
         padding: 20px;
         text-align: center;
@@ -231,6 +230,12 @@ blockquote {
 
 }
 
+@media only screen and (min-width: 575px) and (max-width: 786px) {
+  .icon-images{
+    margin-right:-150px;
+
+  }
+}
 
 @media only screen and (max-width: 500px){
   .modalTitle, .modalPartner, .modalPartners, .modalDescription {
@@ -243,6 +248,7 @@ blockquote {
 
 .modal-content img {
   width: 100% !important;
+
 }
 
 .modalDescription {
@@ -262,7 +268,12 @@ blockquote {
 #footertwo {
   display: none !important;
 }
-
+.container-fluid{
+  margin-right:0px;
+}
+.icon-images{
+      margin-right:-5px;
+}
 
 
 }
@@ -370,14 +381,10 @@ blockquote {
   border-radius: 10px;  
   box-shadow: 1px 1px 1px 1px #afafaf;*/
   padding:2.5%;
-  width:13vw;
-  height:13vw;
+  width:14vmax;
+  height:14vmax;
   position:relative;
-
-
-
-
-}
+*/}
 
 /* making all the images the same size on the index page */
 #img-section img {
@@ -387,8 +394,6 @@ blockquote {
   margin-bottom:10.880952381%;
   margin-top:1.880952381%;
   border-radius: 10px;  
-  top:50%; /* Move the image down, so its top is half way down the container */
-  transform: translateY(-55%);
 
   
 }
@@ -400,14 +405,11 @@ blockquote {
   margin-bottom:10.880952381%;
   margin-top:1.880952381%;
   border-radius: 100px;  
-  position:absolute;
-  top:50%; /* Move the image down, so its top is half way down the container */
-  transform: translateY(-55%);
+
 
 
   
 }
-
 
 #semester div {
   display: inline;
@@ -425,9 +427,8 @@ blockquote {
   position:absolute;
   top:50%; /* Move the image down, so its top is half way down the container */
   transform: translateY(-52%);
-
-
 }
+
 
 #white-box:hover {
   box-shadow: 10px 10px 10px #888888;
@@ -596,6 +597,7 @@ blockquote {
 
 .sidebar {
   margin-top: 35px;
+
 }
 
 
