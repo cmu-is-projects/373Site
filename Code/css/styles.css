@@ -34,7 +34,8 @@ footer {
 }
 
 #footertwo {
-  left: 360px !important;
+  /*left: 360px !important;*/
+  left:25%;
   right: 0 !important;
   width: 75%;
   margin-top: 30px;
@@ -226,6 +227,9 @@ blockquote {
         display: block;
         position: static;
         margin: 0 auto 15px;
+    }
+    #footertwo {
+      display: none !important;
     }
 
 }
