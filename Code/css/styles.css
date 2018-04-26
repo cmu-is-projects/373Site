@@ -231,13 +231,22 @@ blockquote {
     #footertwo {
       display: none !important;
     }
+    #sidebar-container{
+      display: none !important;
+    }
+    #white-box{
+      width:11vmax;
+      height:11vmax;
+    }
 
 }
 
 @media only screen and (min-width: 575px) and (max-width: 786px) {
-  .icon-images{
-    margin-right:-150px;
-
+  .project{
+    margin-right: 0px;
+  }
+  #sidebar-container{
+      display: none !important;
   }
 }
 
