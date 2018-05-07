@@ -23,6 +23,7 @@
 		var mobileFilter = $("#mobileToggle");
 		var sections = document.getElementsByTagName ('section');
 		if(type=="web"){
+			showMobileHeaders()
 			allFilter.removeClass("active");
 			mobileFilter.removeClass("active");
 			webFilter.addClass("active");
@@ -31,19 +32,17 @@
 			
 		}
 		else if(type=="mobile"){
+			showMobileHeaders()
 			allFilter.removeClass("active");
 			mobileFilter.addClass("active");
 			webFilter.removeClass("active");
 			projects2.hide();
 			$("div[project-type='Mobile']").show();
-			for (var i =0; i < sections.length; i++) {
-				var section = $(sections[i]).is(":visible").length;
-				console.log(section);
-				
-			}
+			hideMobileHeaders();
 
 		}
 		else{
+			showMobileHeaders()
 			allFilter.addClass("active");
 			mobileFilter.removeClass("active");
 			webFilter.removeClass("active");
@@ -51,5 +50,17 @@
 		}
 
 	}
+
+	// Give all h1 with no mobile project id="no-mobile"
+	function hideMobileHeaders(){
+		$(".no-mobile").hide();
+	}
+
+	function showMobileHeaders(){
+		$(".no-mobile").show();
+	}
+
+
+
 
 
