@@ -14,7 +14,7 @@ env = Environment(loader=FileSystemLoader(''))
 template = env.get_template( templateType + "Template.html" )
 
 # Local CSV to read data from
-rdr = csv.DictReader( open(csv_file, "r" , encoding='utf-8') )
+rdr = csv.DictReader( open(csv_file, "r" , encoding = 'ISO-8859-1') )
 
 # If image specified
 if templateType == "img":
