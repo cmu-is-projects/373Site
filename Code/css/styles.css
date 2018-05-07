@@ -126,11 +126,14 @@ nav img {
 
 #text {
   display: block;
+
 }
+
 
 #text p{
   margin: 2.5% 22%;
   font-size: 1.1em ;
+  text-align: justify;
 }
 
 #projects {
@@ -524,11 +527,10 @@ blockquote {
 }
 
 .modal-body {
-  padding: 50px !important
-
+  padding: 50px !important;
+  text-align: justify;
 
 }
-
 
 
 .modal-content {
