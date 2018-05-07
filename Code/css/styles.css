@@ -271,6 +271,8 @@ blockquote {
   margin-right: 130px;
   margin-top: 20px !important;
   font-size: 1.3em;
+  font-family: Arial !important ;
+  font-weight: bold;
 }
 
 .team p {
@@ -321,6 +323,9 @@ blockquote {
  h2 {
   font-size: 1.4em !important;
  }
+  .modalTitle {
+      font-size: 32px !important;
+  }
 }
 
 [data-toggle="collapse"] {
@@ -481,29 +486,39 @@ blockquote {
 .modalTitle {
   float: right;
   color: #9a2b1b;
-  
+  font-family: Arial !important;
+  font-weight: bold;
+
 }
 
 .modalPartner {
   float: right;
   margin-left: 100px;
+  font-family: Arial !important;
+  font-size: 18px !important;
 }
 
 .modalPartners {
   float: right;
+  font-size: 14px;
+  margin-left: 70px;
+
+
   
 }
 
 .modalDescription {
   color: #9a2b1b;
-  font-weight: bolder;
+  font-weight: bold;
   margin-top: 10px;
+  font-family: Arial !important;
+
 }
 
 .team p {
   display: inline;
   margin-right: 20px;
-  
+
   font-weight: bolder;
   font-size: 1.1em;
 }
