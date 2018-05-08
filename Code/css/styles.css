@@ -220,40 +220,7 @@ blockquote {
     float: right;
 }
 
-
-@media only screen and (max-width: 786px){
-    .testimonial{
-        padding: 20px;
-        text-align: center;
-    }
-    .testimonial .pic{
-        display: block;
-        position: static;
-        margin: 0 auto 15px;
-    }
-    #footertwo {
-      display: none !important;
-    }
-    #sidebar-container{
-      display: none !important;
-    }
-    #white-box{
-      width:11vmax;
-      height:11vmax;
-    }
-
-}
-
-@media only screen and (min-width: 575px) and (max-width: 786px) {
-  .project{
-    margin-right: 0px;
-  }
-  #sidebar-container{
-      display: none !important;
-  }
-}
-
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 574px){
   .modalTitle, .modalPartner, .modalPartners, .modalDescription {
   float: left !important;
 }
@@ -295,70 +262,117 @@ blockquote {
 
 
 }
+@media screen and (min-width: 1575px)  {
+  #white-box img{
+    right:3%;
+    left:2%;
+  }
+
+}
+
+@media only screen and (min-width: 575px) and (max-width: 786px) {
+  .project{
+    margin-right: 0px;
+  }
+  #sidebar-container{
+      display: none !important;
+  }
+}
+
+@media only screen and (max-width: 786px){
+     .collapse {
+       display: none !important;
+   }
+
+    .testimonial{
+        padding: 20px;
+        text-align: center;
+    }
+    .testimonial .pic{
+        display: block;
+        position: static;
+        margin: 0 auto 15px;
+    }
+    #footertwo {
+      display: none !important;
+    }
+    #sidebar-container{
+      display: none !important;
+
+    }
+    #white-box{
+      width:9.75vmax;
+      height:9.75vmax;
+      margin:2%;
+    }
+
+}
+
 
 @media only screen and (max-width: 1000px){
-#text p{
-      margin: 2.5% 1.5%;
+    #text p{
+          margin: 2.5% 1.5%;
+          font-size: 1.0em ;
+          padding: 20px;
+
+    }
+
+    #orgs, #partners {
+      width: 2.5% 1.5% !important;
+      margin: 2.5% 0 !important;
       font-size: 1.0em ;
-      padding: 20px;
+      padding: 1px;
+    }
 
-}
+    #partners {
+      column-width: 5px !important;
+      column-count: 2!important;
+    }
 
-#orgs, #partners {
-  width: 2.5% 1.5% !important;
-  margin: 2.5% 0 !important;
-  font-size: 1.0em ;
-  padding: 1px;
-}
+     h1 {
+      font-size: 1.6em !important;
+     }
 
-#partners {
-  column-width: 5px !important;
-  column-count: 2!important;
-}
+     h2 {
+      font-size: 1.4em !important;
+     }
 
- h1 {
-  font-size: 1.6em !important;
- }
+    .modalTitle {
+          font-size: 28px !important;
+      }
+    }
 
- h2 {
-  font-size: 1.4em !important;
- }
-  .modalTitle {
-      font-size: 28px !important;
-  }
-}
+    [data-toggle="collapse"] {
+      cursor: pointer;
+    }
 
-[data-toggle="collapse"] {
-  cursor: pointer;
-}
+    .align-center {
+      text-align: center;
+    }
 
-.align-center {
-  text-align: center;
-}
+    .align-right {
+      text-align: right;
+    }
 
-.align-right {
-  text-align: right;
-}
+    .valign-middle {
+      vertical-align: middle !important;
+    }
 
-.valign-middle {
-  vertical-align: middle !important;
-}
+    .parent-expanded {
+      
+    }
+    .parent-collapsed {
+      display: none;
+    }
 
-.parent-expanded {
-  
-}
-.parent-collapsed {
-  display: none;
-}
-
-.collapsed {
-  .parent-expanded {
-    display: none;
-  }
-  
-  .parent-collapsed {
-    display: inline-block;
-  }
+    .collapsed {
+      .parent-expanded {
+        display: none;
+      }
+      
+      .parent-collapsed {
+        display: inline-block;
+      }
 }
 
 /* pics on index page */
@@ -402,8 +416,8 @@ blockquote {
   border-radius: 10px;  
   box-shadow: 1px 1px 1px 1px #afafaf;*/
   padding:2.5%;
-  width:14vmax;
-  height:14vmax;
+  width:12.9vmax;
+  height:12.9vmax;
   position:relative;
 */}
 
@@ -448,6 +462,9 @@ blockquote {
   position:absolute;
   top:50%; /* Move the image down, so its top is half way down the container */
   transform: translateY(-52%);
+  /*right:5%;*/
+
+
 }
 
 
@@ -491,7 +508,8 @@ blockquote {
   color: #9a2b1b;
   font-family: Arial !important;
   font-weight: bold;
-  font-size: 28px !important;
+  /* modal-title */
+  font-size: 1.8em !important;
   text-align:right;
   margin-left:40%;
 
@@ -567,7 +585,7 @@ blockquote {
 }
 
 .modal-content h3, h4 {
-  font-size: 1.8em;
+  font-size: 1.4em;
 }
 
 .modal-content img {
