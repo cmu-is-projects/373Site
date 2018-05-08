@@ -481,7 +481,9 @@ blockquote {
 
 
 .modal-body img {
-  width: 100%;
+  width: 100%;  
+  margin-right:100%;
+
 }
 
 .modalTitle {
@@ -491,6 +493,7 @@ blockquote {
   font-weight: bold;
   font-size: 28px !important;
   text-align:right;
+  margin-left:40%;
 
 
 
@@ -507,8 +510,9 @@ blockquote {
 .modalPartners {
   float: right;
   font-size: 14px;
-  margin-left: 70px;
-  margin-bottom:10%;
+  margin-left:60%;
+ /* margin-bottom:10%;*/
+  text-align:right;
 
   
 }
@@ -516,9 +520,9 @@ blockquote {
 .modalDescription {
   color: #9a2b1b;
   font-weight: bold;
-  margin-top: 10%;
+  margin-top: 7%;
   font-family: Arial !important;
-  margin-right:15%;
+  margin-right:40%;
 
 
 
