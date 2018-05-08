@@ -270,7 +270,7 @@ blockquote {
 
 }
 
-@media only screen and (min-width: 575px) and (max-width: 786px) {
+@media only screen and (min-width: 575px) and (max-width: 764px) {
   .project{
     margin-right: 0px;
   }
@@ -279,7 +279,7 @@ blockquote {
   }
 }
 
-@media only screen and (max-width: 786px){
+@media only screen and (max-width: 764px){
      .collapse {
        display: none !important;
    }
