@@ -324,7 +324,7 @@ blockquote {
   font-size: 1.4em !important;
  }
   .modalTitle {
-      font-size: 32px !important;
+      font-size: 28px !important;
   }
 }
 
@@ -476,7 +476,8 @@ blockquote {
 .modalImage {
   float: left;
   width: 100%;
-}
+/*  margin-right:100%;
+*/}
 
 
 .modal-body img {
@@ -488,6 +489,11 @@ blockquote {
   color: #9a2b1b;
   font-family: Arial !important;
   font-weight: bold;
+  font-size: 28px !important;
+  text-align:right;
+
+
+
 
 }
 
@@ -502,7 +508,7 @@ blockquote {
   float: right;
   font-size: 14px;
   margin-left: 70px;
-
+  margin-bottom:10%;
 
   
 }
@@ -510,8 +516,12 @@ blockquote {
 .modalDescription {
   color: #9a2b1b;
   font-weight: bold;
-  margin-top: 10px;
+  margin-top: 10%;
   font-family: Arial !important;
+  margin-right:15%;
+
+
+
 
 }
 
@@ -519,8 +529,7 @@ blockquote {
   display: inline;
   margin-right: 20px;
 
-  font-weight: bolder;
-  font-size: 1.1em;
+  font-size: 14px;
 }
 
 .team {
